@@ -31,7 +31,8 @@ const Login = () => {
           {err && <span>Sign in Error!</span>}
         </form>
         <p>
-          You don't have an account? <Link to="/register">Register</Link>
+          You don't have an account?{" "}
+          <Link to="/Chat-Application/register">Register</Link>
         </p>
       </div>
     </div>
